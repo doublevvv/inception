@@ -1,0 +1,9 @@
+services:
+
+ mariadb:
+    build:
+      context: ./mariadb
+      dockerfile: dockerfile
+    env_file: .env
+    # volumes:
+    #   - mariadb_data:/var/lib/mysql

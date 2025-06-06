@@ -1,4 +1,4 @@
-#!/bin/bgfggash
+#!/bin/bash
 
 if [ ! -f "/var/lib/mysql/$MYSQL_DATABASE"]; then
     mariadb-install-db --user=mysql --datadir=/var/lib/mysql
